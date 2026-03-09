@@ -1,5 +1,6 @@
 def even_number(num:int):
-    return num%2==0
+    x = bool (num%2)
+    return x
 
 
 for i in range (11):
